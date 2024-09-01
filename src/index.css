@@ -14,6 +14,11 @@
   display: none;
 }
 
+.test {
+  color: blue;
+  font-size: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -56,7 +61,6 @@ body {
 .box {
   width: 42rem;
   max-width: 42rem;
-  background-color: var(--color-background-500);
   border-radius: 0.9rem;
   overflow: scroll;
   position: relative;
