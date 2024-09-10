@@ -24,7 +24,7 @@ function StarRatings({
   gap = 10,
   messages = [],
   defaultRating = 0,
-  onSetRating,
+  onSetRating = () => null,
 }) {
   const [rating, setRating] = useState(defaultRating);
   const [tempRating, setTempRating] = useState(0);
